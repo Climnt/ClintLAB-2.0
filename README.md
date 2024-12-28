@@ -1,2 +1,2 @@
 # ClintLAB-2.0
-News web 
+2nd Version of my News website about tech and etc.
