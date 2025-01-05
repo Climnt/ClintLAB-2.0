@@ -43,7 +43,6 @@ body {
     --home-background:#212434;
     --text-color:white;
     --back-color: white;
-    --border-radius:100%;
     --title-color:white;
     --background-pad:none;
     --gray-shadow: none;
@@ -135,7 +134,7 @@ header {
     
         & img {
             background-color: var(--back-color);
-            border-radius: var(--border-radius);
+            border-radius: 100%;
             padding: 5px;
             transition: all 0.5s;
             border-bottom: solid 3px transparent;
@@ -176,11 +175,11 @@ section {
             color: var(--wh-text-color);
             border-radius: 10px;
             background: none;
-            backdrop-filter: blur(30px);
+            backdrop-filter: blur(20px);
             transition: all 0.5s;
 
             &:hover {
-                transition: all 0.5s;
+                transition: all 0.3s;
                 scale: 1.1;
             }
         }
@@ -215,7 +214,7 @@ section {
 
 /* main content no.2 -- article*/
 article {
-    backdrop-filter: blur(30px);
+    backdrop-filter: blur(20px);
     background: var(--gray-shadow);
     padding: 10px;
     height: 100%;
